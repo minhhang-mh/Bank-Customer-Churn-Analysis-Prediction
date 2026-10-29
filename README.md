@@ -121,14 +121,14 @@ Dự án chọn **LightGBM** thay vì XGBoost. Dù cả hai có AUC-ROC xấp x�
 ├── sql/
 │   ├── 1_data_cleaning.sql
 │   ├── 2_churn_analysis.sql
-│   └── 3_create_view.sql           # Toàn bộ script truy vấn T-SQL EDA & phân tích rủi ro
+│   └── 3_create_view.sql           # Script truy vấn
 ├── power bi/
 │   ├── dashboard_bi.pbix           # Báo cáo dashboard phân tích trên Power BI
 │   ├── dashboard_bi.pdf               
 │   └── dashboard_bi.png            # Ảnh chụp giao diện dashboard                           
 ├── notebooks/
-│   ├── data_prediction.ipynb
-│   ├── bank_churn_prediction.csv
+│   ├── data_prediction.ipynb       # Dự đoán khách hàng trên Python qua các mô hình học máy
+│   ├── bank_churn_prediction.csv   # Xác suất rời bỏ dự đoán trên tập test
 │   ├── correlation_matrix.png
 │   ├── confusion_matrix.png
 │   ├── confusion_matrix_lgb_xgb.png
