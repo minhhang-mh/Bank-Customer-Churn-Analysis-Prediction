@@ -1,17 +1,19 @@
 # Bank-Customer-Churn-Analysis-Prediction
-* **Data source:** https://www.kaggle.com/competitions/bank-customer-churn-prediction-challeng-zhenliu/data
-
-Dự án phân tích và dự báo nguy cơ rời bỏ dịch vụ của khách hàng ngân hàng (Customer Churn) theo quy trình khép kín End-to-End: Khai phá dữ liệu với **SQL (T-SQL)**, trực quan hóa và theo dõi KPI trên **Power BI**, xây dựng mô hình phân loại dự đoán bằng **Python**, giải thích cơ chế mô hình bằng **SHAP** và đưa ra quyết định tối ưu ngưỡng cắt phân loại dựa trên bài toán kinh tế thực tế của ngân hàng.
+* **Data source: Bank Customer Churn Prediction Challenge**
+* **Link:** https://www.kaggle.com/competitions/bank-customer-churn-prediction-challeng-zhenliu/data
+---
+## Language: [English](#-english) | [Tiếng Việt](#-tiếng-việt)
+## 🇻🇳 Tiếng Việt
+Dự án phân tích và dự báo nguy cơ rời bỏ dịch vụ của khách hàng ngân hàng (Customer Churn) theo quy trình khép kín End-to-End: Khai phá dữ liệu với SQL trên **SQL Server**, trực quan hóa và theo dõi KPI trên **Power BI**, xây dựng mô hình phân loại dự đoán bằng **Python**, giải thích cơ chế mô hình bằng **SHAP**.
 
 ---
 
 ## 1. Bối cảnh & Mục tiêu dự án (Business Understanding)
 * **Bối cảnh kinh doanh:** Trong ngành tài chính - ngân hàng, chi phí để thu hút một khách hàng mới (Customer Acquisition Cost - CAC) thường cao gấp 5 đến 7 lần so với chi phí giữ chân một khách hàng hiện hữu. Khách hàng rời bỏ gây thất thoát trực tiếp đến Giá trị vòng đời khách hàng (Customer Lifetime Value - CLV).
 * **Mục tiêu của dự án:**
-  1. Sử dụng SQL và Power BI để bóc tách các đặc trưng nhân khẩu học và hành vi tác động lớn nhất đến tỷ lệ rời bỏ (Churn Rate).
-  2. Xây dựng pipeline Machine Learning dự đoán chính xác xác suất khách hàng rời đi trên tập kiểm thử (Test set).
-  3. Ứng dụng XAI (Explainable AI - SHAP) để minh bạch hóa cơ chế dự đoán của mô hình ("Black-box" to "Glass-box").
-  4. Đánh giá sự đánh đổi giữa chi phí bỏ sót khách hàng (False Negative) và chi phí chăm sóc nhầm (False Positive) để lựa chọn ngưỡng phân loại (Decision Threshold) tối ưu lợi nhuận cho ngân hàng.
+  * Sử dụng SQL và Power BI để bóc tách các đặc trưng nhân khẩu học và hành vi tác động lớn nhất đến tỷ lệ rời bỏ (Churn Rate).
+  * Machine Learning dự đoán chính xác xác suất khách hàng rời đi trên tập kiểm thử (Test set).
+  * Đánh giá sự đánh đổi giữa chi phí bỏ sót khách hàng (False Negative) và chi phí chăm sóc nhầm (False Positive) để lựa chọn ngưỡng phân loại (Decision Threshold) tối ưu lợi nhuận cho ngân hàng.
 
 ---
 
